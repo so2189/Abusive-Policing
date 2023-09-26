@@ -1,0 +1,125 @@
+/* Navigation container */
+.container {
+	padding-top: 20px;
+	position: relative;
+}
+
+/* Container for nav bar, hero image, and title*/
+.text-container {
+	position: absolute; 
+	/* Trying to center..... */
+	top: 50%;
+	left: 46%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 5.5vw;
+	display: block;
+}
+
+/* Navigation list */
+ul {
+	position: fixed; 
+	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+  	top: 0;
+  	width: 100%;
+  	/* Nav bar decoration */
+  	background-color: #ffe;
+  	border-top: 1px solid #000000;
+  	border-bottom: 1px solid #000000;
+  	/* sets the z-order of a positioned element*/
+  	z-index: 1; 
+}
+
+/* Navigation list */
+li {
+	float: right;
+  	border-left: 1px solid #000000;
+}
+
+/* Navigation list */
+li a {
+	display: block;
+ 	color: black;
+ 	text-align: center;
+ 	padding: 14px 50px;
+ 	text-decoration: none;
+}
+
+/* Hero/banner image */
+img {
+	background-size: cover;
+	max-width: 100%;
+    height: auto;
+}
+
+/* Body text */
+body {
+	margin-top: 0;
+	margin: 0;
+    padding: 0;
+    background-color: #ffe;
+}
+
+/* Larger texts */
+h1 {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3%;
+}
+
+/* Information text */
+p {
+	line-height: 2em;
+	padding-left: 15%;
+	padding-right: 15%;
+	color: black;
+
+}
+
+.text-info {
+	margin-left: 20px;
+	padding-bottom: 10%;
+}
+
+.word-bubble {
+ 	margin-left: 15%;
+	padding-bottom: 5%;
+}
+
+/* Word bubble as a table */
+table {
+	table-layout: fixed;
+	width: 80%;
+	line-height: 40px;
+}
+
+/* Word bubble data */
+td {
+	text-align: center;
+}
+
+/* Picture of Jaahnavi on home page */
+.image1 {
+ 	text-align: center;
+ 	padding-bottom: 5%;
+}
+
+/* Resoures text box on Action page */
+.resource {
+	font-size: 30px;
+	border-style:solid;
+	border-radius: 5em;
+	border-width: 4px;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-bottom: 3%;
+}
+
+/* Links on Action page */
+.links {
+	font-size: 30px;
+	margin-left: 40%;
+	line-height: 60px;
+}
